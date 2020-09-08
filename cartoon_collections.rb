@@ -22,13 +22,8 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |planeteer|
     valid_calls.include? planeteer
   end
-
 end
 
 
 
-
-odds_and_evens.find do |num|
-  num.odd?
-end
 
